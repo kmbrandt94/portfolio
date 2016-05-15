@@ -1,0 +1,107 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/background.png);
+    padding: inherit;
+}
+
+nav {
+    align-content: center;
+}
+
+.navbar {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    align-content: center;
+}
+
+main {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    align-content: center;
+    background-color: #FFFFFF;
+    padding-bottom: 35px;
+    padding: inherit;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-shadow: 5px 5px 5px #877878;
+}
+
+.carousel {
+    padding: 60px;
+    height: 40%;
+}
+
+.carousel-caption {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    clear: both;
+    max-width: 550px;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#Skills {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    margin: auto;
+    float: right;
+    float: inherit;
+}
+
+#Education {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    margin: auto;
+    float: right;
+    float: inherit;
+}
+
+h3 {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    clear: both;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.center {
+    float: none;
+    margin: 0 auto;
+}
+
+.row {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    padding: 10px;
+    margin: 10px;
+    width: inherit;
+    background-color: #0B0A0A;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 5px ridge #877878;
+}
+
+footer {
+    font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    color: #FFFFFF;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+@media (min-width: @screen-sm-min) {}
+
+@media (min-width: @screen-md-min) {}
+
+@media (min-width: @screen-lg-min) {}
